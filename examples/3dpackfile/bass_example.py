@@ -39,7 +39,7 @@ while True:
 		exit()
 	if lucia.key_pressed(lucia.K_c):
 		lucia.output.output(
-			f"Cors {round(player.x,0)}, {round(player.y,0)}, {round(player.z,0)}"
+			f"Co-ords {round(player.x,0)}, {round(player.y,0)}, {round(player.z,0)}"
 		)
 	if lucia.key_pressed(lucia.K_x):
 		lucia.output.output(f"facing {direction}")
